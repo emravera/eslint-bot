@@ -1,0 +1,25 @@
+{
+  "name": "lint-bot",
+  "private": true,
+  "engines": {"node": ">=4.4.0", "npm": "^3.0.0"},
+  "eslintConfig": {
+    "root": true,
+    "extends": "./node_modules/@cody-greene/eslint-config/strict.yml",
+    "env": {"node": true, "es6": true}
+  },
+  "scripts": {
+    "repl": "set -a;. .env && node --harmony",
+    "web": "set -a;. .env && nodemon --harmony -w lib lib/server.js",
+    "start": "node --harmony lib/server.js"
+  },
+  "dependencies": {
+    "@cody-greene/request": "0.1.0",
+    "async": "2.0.1",
+    "connect": "3.4.1",
+    "eslint": "3.2.2",
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cody-greene/eslint-config": "2.13.0"
+  }
+}
