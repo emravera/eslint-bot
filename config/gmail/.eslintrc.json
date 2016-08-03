@@ -1,0 +1,12 @@
+{
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "$": false,
+    "_LTracker": true,
+    "amplitude": false,
+    "angular": false,
+    "moment": false
+  }
+}

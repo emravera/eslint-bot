@@ -1,0 +1,8 @@
+env:
+  browser: true
+globals:
+  angular: false
+  moment: false
+  amplitude: false
+  _LTracker: true
+  $: false
