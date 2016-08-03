@@ -1,7 +1,7 @@
 {
   "name": "lint-bot",
   "private": true,
-  "engines": {"node": ">=4.4.0", "npm": "^3.0.0"},
+  "engines": {"node": "^4.4.0", "npm": "^3.0.0"},
   "eslintConfig": {
     "root": true,
     "extends": "./node_modules/@cody-greene/eslint-config/strict.yml",
