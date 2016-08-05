@@ -9,8 +9,10 @@
   },
   "scripts": {
     "repl": "set -a;. .env && node --harmony",
-    "web": "set -a;. .env && nodemon --harmony -w lib lib/server.js",
-    "start": "node --harmony lib/server.js"
+    "start": "node --harmony lib/server.js",
+    "test": "mocha --harmony -bR tap",
+    "test-watch": "set -a;. .env && mocha --harmony -bwR min",
+    "web": "set -a;. .env && nodemon --harmony -w lib lib/server.js"
   },
   "dependencies": {
     "@cody-greene/request": "0.1.0",
@@ -20,6 +22,7 @@
     "lodash": "^4.0.0"
   },
   "devDependencies": {
-    "@cody-greene/eslint-config": "2.13.0"
+    "@cody-greene/eslint-config": "2.13.0",
+    "mocha": "~2.4.5"
   }
 }
