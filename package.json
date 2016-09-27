@@ -1,18 +1,18 @@
 {
   "name": "lint-bot",
   "private": true,
-  "engines": {"node": "^4.4.0", "npm": "^3.0.0"},
+  "engines": {"node": "^6.0.0"},
   "eslintConfig": {
     "root": true,
     "extends": "./node_modules/@cody-greene/eslint-config/strict.yml",
     "env": {"node": true, "es6": true}
   },
   "scripts": {
-    "repl": "set -a;. .env && node --harmony",
-    "start": "node --harmony lib/server.js",
-    "test": "mocha --harmony -bR tap",
-    "test-watch": "set -a;. .env && mocha --harmony -bwR min",
-    "web": "set -a;. .env && nodemon --harmony -w lib lib/server.js"
+    "repl": "set -a;. .env && node",
+    "start": "node lib/server.js",
+    "test": "mocha -bR tap",
+    "test-watch": "set -a;. .env && mocha -bwR min",
+    "web": "set -a;. .env && nodemon -w lib lib/server.js"
   },
   "dependencies": {
     "@cody-greene/request": "0.1.0",
