@@ -15,10 +15,10 @@
     "web": "set -a;. .env && nodemon -w lib lib/server.js"
   },
   "dependencies": {
-    "honeybee": "0.2.0",
     "async": "2.0.1",
-    "connect": "3.5.0",
     "eslint": "3.6.1",
+    "honeybee": "0.2.0",
+    "koa": "1.2.4",
     "lodash": "^4.0.0"
   },
   "devDependencies": {
