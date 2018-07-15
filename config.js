@@ -1,7 +1,7 @@
 module.exports = {
   github_user: 'ci-agent-thirdlove',
   github_password: 'Thirdlove123!',
-  user_agent: 'ESLintBot (github.com/cody-greene/eslint-bot)',
+  user_agent: 'ESLintBot',
   log_level: 'info',
   port: '5000',
   shutdown_idle: '3000',
