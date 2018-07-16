@@ -1,11 +1,13 @@
 module.exports = {
   github_user: 'ci-agent-thirdlove',
   github_password: 'Thirdlove123!',
-  user_agent: 'ESLintBot (github.com/cody-greene/eslint-bot)',
+  user_agent: 'ESLintBot',
   log_level: 'info',
   port: '5000',
   shutdown_idle: '3000',
   shared_secret: '160_BIT_KEY',
+  eslint_file_name: '.eslintrc',
+  eslint_file_path: process.env.ESLINT_FILE_PATH || 'tools/'
 };
 
 // github_user: process.env.GH_USER,
