@@ -2,7 +2,7 @@
   "name": "lint-bot",
   "private": true,
   "engines": {
-    "node": "^6.0.0"
+    "node": "8.11.3"
   },
   "eslintConfig": {
     "root": true,
