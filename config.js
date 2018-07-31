@@ -8,5 +8,7 @@ module.exports = {
   shared_secret: process.env.SHARED_SECRET || '160_BIT_KEY',
   eslint_file_name: '.eslintrc',
   eslint_file_path: process.env.ESLINT_FILE_PATH || 'tools/',
+  stylelint_file_name: '.stylelintrc',
+  stylelint_file_path: process.env.STYLELINT_FILE_PATH || 'tools/',
 };
 
