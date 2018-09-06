@@ -9,4 +9,3 @@ module.exports = {
   eslint_file_name: '.eslintrc',
   eslint_file_path: process.env.ESLINT_FILE_PATH || 'tools/',
 };
-
