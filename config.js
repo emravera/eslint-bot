@@ -7,5 +7,5 @@ module.exports = {
   shutdown_idle: process.env.SHUTDOWN_SOCKET_IDLE || '3000',
   shared_secret: process.env.SHARED_SECRET || '160_BIT_KEY',
   eslint_file_name: '.eslintrc',
-  eslint_file_path: process.env.ESLINT_FILE_PATH || 'tools/',
+  eslint_file_path: process.env.ESLINT_FILE_PATH || '',
 };
