@@ -24,6 +24,7 @@
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-standard": "11.0.0",
     "eslint-config-standard-react": "6.0.0",
+    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-babel": "5.1.0",
     "eslint-plugin-css-modules": "2.7.5",
