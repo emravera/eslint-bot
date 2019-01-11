@@ -31,18 +31,7 @@ Deploy the app by following these [steps][]. Use remote heroku and deploy in mas
 # Thirdlove Bot TODO List
 
 This file aims to contain a list of the missing features of the Thirdlove Bot. 
-
-### Please update this list by removing the line from the list when you implement it! 
-  
-  - We need to review the rules that does not apply to only one file.
-  - When the file has two diffs that is not supported now and analyze only the first one. 
-  - Run only when create or synchronize. If adding more files will re-run again on all the files.
-   - Simplify the logic for CSS comments on the /run route.
-  - Usage of repository local .stylelintrec such as eslint.
-  - Avoid CSS failure on SyntaxError (when ; is missing does not detect the errors after). This is a lib error.
-  - Add unit tests of the bot :) 
-  - Improve the webhook response, now webhook response fails but the comments are done aysnc.
-  
+    
 ### Check the Backlog and fix one!
 
 [Bot Backlog][https://github.com/mecommerce/eslint-bot/issues]
