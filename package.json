@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@tl-frida/eslint-config-frida-base": "0.1.0",
+    "@tl-frida/eslint-config-frida": "0.0.1",
     "eslint": "5.6.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-standard": "11.0.0",
