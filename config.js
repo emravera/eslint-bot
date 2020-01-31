@@ -1,6 +1,6 @@
 module.exports = {
-  github_user: process.env.GH_USER || 'ci-agent-thirdlove',
-  github_password: process.env.GH_TOKEN || 'Thirdlove123!',
+  github_user: process.env.GH_USER,
+  github_password: process.env.GH_TOKEN,
   user_agent: process.env.USER_AGENT || 'ESLintBot',
   log_level: process.env.LOG_LEVEL || 'info',
   port: process.env.PORT || '5000',
